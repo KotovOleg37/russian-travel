@@ -1,0 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+
+h1{
+  font-family: Inter;
+  font-weight: normal;
+}
+
+h2{
+  font-family: Inter;
+  font-weight: black;
+}
