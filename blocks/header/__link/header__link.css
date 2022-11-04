@@ -3,4 +3,14 @@
   text-align: left;
   font-style: normal;
   
-}   
+}
+
+.header__link:nth-last-of-type(1n) {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link:nth-last-of-type(1n) {
+    padding-top: 1.875rem
+  }
+}

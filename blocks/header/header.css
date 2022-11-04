@@ -1,5 +1,24 @@
 .header{
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  box-sizing: content-box;
   
+}
+
+header:nth-child(1n){
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  header:nth-child(1n){
+    padding: 0 24px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  header:nth-child(1n){
+    padding: 0 16px;
+}   
 }

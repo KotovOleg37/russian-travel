@@ -1,20 +1,23 @@
 .header__link-lang{
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 1.75;
   text-align: right;
-  margin: 0;
+  
+  margin: 0 auto;
 }
 
 .header__link-lang:last-child{
-  padding-left: 18px;
-  padding-right: 48px;
-
+  padding-left: 1.125rem
 }
 
 .header__link-lang:first-of-type{
   text-decoration: underline;
 }
 
-.header__link:nth-last-of-type(1n){
-  padding-top: 48px;
+@media screen and (max-width: 320px){
+  .header__link-lang:nth-last-of-type(1n) {
+      font-size: 1.125rem;
+    
+    }
 }
+  
