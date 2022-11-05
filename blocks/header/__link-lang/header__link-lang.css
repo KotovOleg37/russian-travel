@@ -10,9 +10,6 @@
   padding-left: 1.125rem
 }
 
-.header__link-lang:first-of-type{
-  text-decoration: underline;
-}
 
 @media screen and (max-width: 320px){
   .header__link-lang:nth-last-of-type(1n) {

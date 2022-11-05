@@ -7,7 +7,7 @@
 }
 
 header:nth-child(1n){
-  padding: 0 48px;
+  padding: 0 3.75%;
 }
 
 @media screen and (max-width: 768px) {
