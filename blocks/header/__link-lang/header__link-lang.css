@@ -2,7 +2,7 @@
   font-size: 1.5rem;
   line-height: 1.75;
   text-align: right;
-  
+  box-sizing: border-box;
   margin: 0 auto;
 }
 

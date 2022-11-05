@@ -3,8 +3,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  box-sizing: content-box;
-  
+  box-sizing: border-box;
 }
 
 header:nth-child(1n){
@@ -12,13 +11,13 @@ header:nth-child(1n){
 }
 
 @media screen and (max-width: 768px) {
-  header:nth-child(1n){
+  .header:nth-child(1n){
     padding: 0 24px;
 }
 }
 
 @media screen and (max-width: 320px) {
-  header:nth-child(1n){
+  .header:nth-child(1n){
     padding: 0 16px;
 }   
 }

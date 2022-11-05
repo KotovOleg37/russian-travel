@@ -1,6 +1,7 @@
 .header__logo{
   max-width: 100%;
   min-height: 3.25rem;
+  box-sizing: border-box;
   
 }
 

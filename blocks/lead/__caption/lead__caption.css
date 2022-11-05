@@ -6,8 +6,21 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
 
-.lead__caption:nth-last-of-type(1n){
+.lead__caption:nth-child(1n){
   padding-top: 8px;
+}
+
+@media screen and (max-width: 940px){
+  .lead__caption:nth-child(1n){
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .lead__caption:nth-child(1n) {
+    padding-left: 16px;
+  }
 }

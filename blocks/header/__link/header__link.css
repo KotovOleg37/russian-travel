@@ -2,7 +2,7 @@
   display: flex;
   text-align: left;
   font-style: normal;
-  
+  box-sizing: border-box;
 }
 
 .header__link:nth-last-of-type(1n) {
