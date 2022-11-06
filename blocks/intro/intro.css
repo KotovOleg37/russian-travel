@@ -1,7 +1,6 @@
 .intro{
   max-width: 690px;
   margin: 0;
-  box-sizing: border-box;
 }
 
 
@@ -15,14 +14,24 @@
 
 .intro:nth-child(1n) {
   padding-top: 92px;
-  padding-left: 5.78125%;
-  padding-right: 5.78125%;
+  padding-left: 11.5625%;
+  padding-right: 11.5625%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro:nth-child(1n){
+    padding-left: 4.689%;
+    padding-right:4.689%;
+  }
+  
 }
 
 
 @media screen and (max-width: 768px) {
   .intro:nth-child(1n){
     padding-top: 88px;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
   }  
   }
 
