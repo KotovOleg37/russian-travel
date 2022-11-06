@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 320px) {
   .header__link:nth-last-of-type(1n) {
-    padding-top: 1.875rem
+    padding-top: 1.875rem;
   }
 }
