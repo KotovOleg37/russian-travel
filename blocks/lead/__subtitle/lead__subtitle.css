@@ -7,9 +7,6 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-}
-
-.lead__subtitle {
   padding-top: 32px;
   padding-bottom: 64px;
 }
@@ -27,7 +24,7 @@
     padding-top: 16px;
     font-size: 16px;
     line-height: 20px;
-}
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -40,5 +37,4 @@
     margin: 0 auto;
 
   }
-
 }
