@@ -1,7 +1,7 @@
 .lead__subtitle{
   margin: 0 auto;
   max-width: 640px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -9,23 +9,36 @@
   text-align: center;
 }
 
-.lead__subtitle:nth-last-of-type(1n){
+.lead__subtitle {
   padding-top: 32px;
   padding-bottom: 64px;
 }
 
 @media screen and (max-width: 1024px){
-  .lead__subtitle:nth-last-of-type(1n){
+  .lead__subtitle {
     padding-bottom: 56px;
 }
 }
 
 @media screen and (max-width: 320px){
-  .lead__subtitle:nth-last-of-type(1n){
+  .lead__subtitle {
 
     padding-bottom: 40px;
     padding-top: 16px;
     font-size: 16px;
     line-height: 20px;
 }
+}
+
+@media screen and (max-width:480px) {
+  .lead__subtitle {
+    padding-bottom: 40px;
+    max-width: 288px;
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+
+  }
+
 }

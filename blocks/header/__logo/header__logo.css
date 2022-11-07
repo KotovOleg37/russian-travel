@@ -2,16 +2,13 @@
   max-width: 100%;
   min-height: 3.25rem;
   box-sizing: border-box;
+  padding-top: 1.75rem;
+  padding-bottom: 3.5rem;
   
 }
 
-.header__logo:first-child{
-  padding-top: 1.75rem;
-  padding-bottom: 3.5rem;
-}
-
 @media screen and (max-width: 1024px) {
-  .header__logo:first-child{
+  .header__logo{
     padding-bottom: 3rem;
   }
 }
@@ -20,8 +17,6 @@
   .header__logo {
     max-width: 142px;
     min-height: 42px;
-  }
-  .header__logo:first-child{
     padding-bottom: 3rem;
     padding-top: 1rem;
   }

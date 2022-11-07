@@ -1,10 +1,22 @@
 .place__website{
+display: flex ;
 max-width: 456px;
+justify-self: start;
+align-self: end;
+flex-direction: column;
 
+}
+
+@media screen and (max-width: 680px) {
+  .place__website {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width:320px){
   .place__website{
     margin-left: 16px;
+    
   }
 }
+

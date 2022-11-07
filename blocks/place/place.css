@@ -16,25 +16,32 @@
 
 @media screen and (max-width: 1024px) {
   .place{
+    max-width: 928px;
     grid-template-columns: minmax(440px, 1fr) 1fr;
     gap: 48px 32px;
   }
-  
 }
 
 
 @media screen and (max-width: 768px) {
   .place{
     grid-template-columns: minmax(340px, 1fr) 1fr;
+    max-width: 728px;
+    gap: 48px 28px;
   }
-
-  
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 680px) {
   .place {
     grid-template-columns: 1fr;
+    margin: 0 0 64px 0;
   }
-
-
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin-bottom: 50px;
+    gap: 32px;
+  }
+}
+

@@ -1,5 +1,5 @@
 .lead__caption{
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -7,20 +7,19 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   box-sizing: border-box;
+  padding-top: 8px;
+  margin: 0;
 }
 
-.lead__caption:nth-child(1n){
-  padding-top: 8px;
-}
 
 @media screen and (max-width: 940px){
-  .lead__caption:nth-child(1n){
+  .lead__caption {
     padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .lead__caption:nth-child(1n) {
+  .lead__caption {
     padding-left: 16px;
   }
 }

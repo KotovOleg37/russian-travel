@@ -4,15 +4,22 @@
   text-align: right;
   box-sizing: border-box;
   margin: 0 auto;
+  color: white;
 }
 
-.header__link-lang:last-child{
-  padding-left: 1.125rem;
+.header__link-lang:hover {
+  opacity: 0.8;
+  transition: opacity 0.6s;
+}
+
+
+.header__link-lang:not(:last-child){
+  padding-right: 1.125rem;
 }
 
 
 @media screen and (max-width: 320px){
-  .header__link-lang:nth-last-of-type(1n) {
+  .header__link-lang{
       font-size: 1.125rem;
     
     }
