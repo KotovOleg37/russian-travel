@@ -22,17 +22,12 @@
 
 @media screen and (max-width: 768px) {
   .intro {
+    max-width: 720px;
     padding-top: 88px;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
   }  
-}
-
-@media screen and (max-width: 760px) {
-  .intro {
-    margin: 0 auto;
-  }
 }
 
 @media screen and (max-width: 320px) {
