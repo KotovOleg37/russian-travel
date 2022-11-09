@@ -6,12 +6,6 @@
   padding-right: 11.5625%;
 }
 
-@media screen and (min-width: 1281px) {
-  .intro {
-    margin: 0 auto;
-    padding: 0;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   .intro {
